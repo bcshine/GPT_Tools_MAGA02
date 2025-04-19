@@ -5,3 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'Hello Midcam'
+      pwd-ls: 
+        name: pwd & LS
+        runs-on: ubuntu-latest
+        steps:
+          - name: Print working directory
+          - run: pwd
+          - run: ls-al
+        
